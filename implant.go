@@ -21,8 +21,9 @@ import (
 
 const (
 	PSKPayload = "thisiscoolthisiscool1234" // 16/24 char PSK // shared psk with client/server/implants
-	target     = "143.198.97.230"           // C2 Server
-	port       = "8008"
+	//target     = "143.198.97.230"           // C2 Server
+	target = "0.0.0.0"
+	port   = "8008"
 )
 
 func main() {
